@@ -16,6 +16,10 @@ zuul:
   prefix: /api # 添加路由前缀
   routes:
     item-service: /item/**
+    upload-service:
+      path: /upload/**
+      serviceId: upload-service
+      strip-prefix: false
 #  retryable: true
 ribbon:
   ConnectTimeout: 1000 # 连接超时时间(ms)
