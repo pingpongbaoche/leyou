@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import tk.mybatis.mapper.entity.Example;
+
 import java.util.List;
 
 @Service
@@ -55,23 +56,31 @@ public class BrandService {
 
     /**
      * 新增品牌
-     * */
+     */
     @Transactional
     public void saveBrand(Brand brand, List<Long> cids) {
         //新增品牌
         brand.setId(null);
         int count = brandMapper.insert(brand);
-        if (count != 1){
+        if (count != 1) {
             throw new LyException(ExceptionEnums.BRAND_SAVE_ERROR);
         }
 
         //新增中间表 insert into tb_category_brand values(1,2) sql在BrandMapper.java中 因为中间表没有实体类所以不能用mapper
         for (Long cid : cids) {
-            brandMapper.insertCategoryBrand(cid,brand.getId());
-            if (count != 1){
+            brandMapper.insertCategoryBrand(cid, brand.getId());
+            if (count != 1) {
                 throw new LyException(ExceptionEnums.BRAND_SAVE_ERROR);
             }
         }
 
+    }
+
+    public Brand queryById(Long id) {
+        Brand brand = brandMapper.selectByPrimaryKey(id);
+        if (brand == null) {
+            throw new LyException(ExceptionEnums.BRAND_NOT_FOUND);
+        }
+        return brand;
     }
 }

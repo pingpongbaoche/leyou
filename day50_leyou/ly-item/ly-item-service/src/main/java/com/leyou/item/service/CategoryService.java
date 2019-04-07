@@ -29,4 +29,15 @@ public class CategoryService {
         }
         return list;
     }
+
+    //根据一堆id返回商品分类
+    public List<Category> queryByIds(List<Long> ids){
+        List<Category> categories = categoryMapper.selectByIdList(ids);
+        if(CollectionUtils.isEmpty(categories))
+        {
+            throw new LyException(ExceptionEnums.CATEGORY_NOT_FOUND);
+        }
+        return categories;
+
+    }
 }

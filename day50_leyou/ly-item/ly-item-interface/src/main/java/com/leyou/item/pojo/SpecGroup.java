@@ -2,19 +2,22 @@ package com.leyou.item.pojo;
 
 import lombok.Data;
 import tk.mybatis.mapper.annotation.KeySql;
+
 import javax.persistence.Id;
 import javax.persistence.Table;
 
 /**
- * 商品品牌实体类
+ * 商品规则组实体类
  * */
 @Data
-@Table(name="tb_brand")
-public class Brand {
+@Table(name = "tb_spec_group")
+public class SpecGroup {
+
     @Id
     @KeySql(useGeneratedKeys = true)
     private Long id;
-    private String name;//品牌名称
-    private String image;//品牌图片
-    private Character letter;
+
+    private Long cid;
+
+    private String name;
 }
