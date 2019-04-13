@@ -40,4 +40,12 @@ public class BrandController {
         return ResponseEntity.status(HttpStatus.CREATED).build();//新增 如果有返回值，用body，没有返回值，用build
     }
 
+    /**
+     * 根据cid查询品牌
+     * */
+    @GetMapping("/cid/{cid}")
+    public ResponseEntity<List<Brand>> queryBrandByCid(@PathVariable("cid") Long cid){
+        return ResponseEntity.ok(brandService.queryBrandByCid(cid));
+    }
+
 }

@@ -7,6 +7,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Transient;
 import java.util.Date;
+import java.util.List;
 
 /**
  * SPU实体类
@@ -37,6 +38,11 @@ public class Spu {
     private String cname;//分类名称
     @Transient//不是数据库字段
     private String bname;//品牌名称
+
+    @Transient
+    private List<Sku> skus;
+    @Transient
+    private SpuDetail spuDetail;
 
 
 

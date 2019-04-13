@@ -22,6 +22,10 @@ public enum  ExceptionEnums {
     SPEC_GROUP_NOT_FOUND(404,"商品规格组不存在"),
     SPEC_PARAM_NOT_FOUND(404,"商品规格参数不存在"),
     GOODS_NOT_FOUND(404,"商品不存在"),
+    GOODS_SAVE_ERROR(500,"新增商品失败"),
+    GOODS_DETAIL_NOT_FOUND(404,"商品详情不存在"),
+    GOODS_SKU_NOT_FOUND(404,"商品SKU不存在"),
+    GOODS_STOCK_NOT_FOUND(404,"商品库存不存在"),
     ;
     private int code;//异常状态码
     private String msg;//异常提示
