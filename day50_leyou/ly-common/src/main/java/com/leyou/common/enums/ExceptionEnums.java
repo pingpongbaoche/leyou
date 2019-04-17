@@ -26,6 +26,8 @@ public enum  ExceptionEnums {
     GOODS_DETAIL_NOT_FOUND(404,"商品详情不存在"),
     GOODS_SKU_NOT_FOUND(404,"商品SKU不存在"),
     GOODS_STOCK_NOT_FOUND(404,"商品库存不存在"),
+    GOODS_UPDATE_ERROR(500,"更新商品失败"),
+    GOODS_ID_CANNOT_BE_NULL(400,"商品id不能为空"),
     ;
     private int code;//异常状态码
     private String msg;//异常提示
