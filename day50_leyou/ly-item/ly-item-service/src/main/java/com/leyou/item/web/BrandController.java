@@ -57,4 +57,12 @@ public class BrandController {
         return ResponseEntity.ok(brandService.queryById(id));
     }
 
+    /**
+     * 根据ids聚合查询
+     * */
+    @GetMapping("list")
+    public ResponseEntity<List<Brand>> queryBrandByIds(@RequestParam("ids") List<Long> ids){
+        return ResponseEntity.ok(brandService.queryByIds(ids));
+    }
+
 }
