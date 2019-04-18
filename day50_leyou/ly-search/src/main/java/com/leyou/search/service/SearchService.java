@@ -17,6 +17,7 @@ import com.leyou.search.repository.GoodsRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.math.NumberUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.elasticsearch.index.query.BoolQueryBuilder;
 import org.elasticsearch.index.query.MatchQueryBuilder;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -181,7 +182,7 @@ public class SearchService {
      */
     public PageResult<Goods> search(SearchRequest request) {
         String key = request.getKey();
-        if(StringUtils.isBlank(key)){
+        if (StringUtils.isBlank(key)) {
             return null;
         }
         int page = request.getPage() - 1;//elasicsearch默认page是从0开始
@@ -194,7 +195,8 @@ public class SearchService {
         queryBuilder.withPageable(PageRequest.of(page, size));
         //2.根据搜索条件过滤
         //搜索条件
-        QueryBuilder basicQuery = QueryBuilders.matchQuery("all", key);
+        QueryBuilder basicQuery = buildBasicQuery(request);
+//        QueryBuilders.matchQuery("all", key);
         queryBuilder.withQuery(basicQuery);
         //3.0聚合分类和品牌
         //3.1聚合分类
@@ -223,7 +225,27 @@ public class SearchService {
             specs = buildSpecificationAgg(categories.get(0).getId(), basicQuery);
         }
 
-        return new SearchResult(total, totalPage, goodsList, categories, brands, specs);//, specs
+        return new SearchResult(total, totalPage, goodsList, categories, brands, specs);
+    }
+
+    private QueryBuilder buildBasicQuery(SearchRequest request) {
+        //创建布尔查询
+        BoolQueryBuilder queryBuilder = QueryBuilders.boolQuery();
+        //查询条件
+        queryBuilder.must(QueryBuilders.matchQuery("all", request.getKey()));
+        //过滤条件
+        Map<String, String> map = request.getFilter();
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            String key = entry.getKey();
+            //处理key
+            if (!"cid3".equals(key) && !"brandId".equals(key)) {
+                //是规格参数类型
+                key = "specs." + key + ".keyword";
+            }
+            queryBuilder.filter(QueryBuilders.termQuery(key, entry.getValue()));
+        }
+
+        return queryBuilder;
     }
 
     private List<Map<String, Object>> buildSpecificationAgg(Long cid, QueryBuilder basicQuery) {//cid是商品分类id
@@ -250,9 +272,9 @@ public class SearchService {
             //待选项
             List<String> options = terms.getBuckets().stream().map(b -> b.getKeyAsString()).collect(Collectors.toList());
             //准备map
-            Map<String,Object> map = new HashMap<>();
-            map.put("k",name);
-            map.put("options",options);
+            Map<String, Object> map = new HashMap<>();
+            map.put("k", name);
+            map.put("options", options);
 
             specs.add(map);
         }
