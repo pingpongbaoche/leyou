@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3220a63a-50f6-4f88-9959-2c583774591c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day55_leyou-portal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day55_leyou-portal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day55_leyou-portal/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day55_leyou-portal/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day55_leyou-portal/search.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
+            <state relative-caret-position="843">
+              <caret line="120" column="30" lean-forward="true" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -357,7 +353,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555587027415" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555587284735" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -549,7 +545,7 @@
       <workItem from="1555033511179" duration="16111000" />
       <workItem from="1555154873661" duration="3350000" />
       <workItem from="1555311481278" duration="17852000" />
-      <workItem from="1555383286121" duration="44861000" />
+      <workItem from="1555383286121" duration="45124000" />
     </task>
     <task id="LOCAL-00001" summary="添加商品分类查询之前">
       <created>1554196716840</created>
@@ -621,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555557885167</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="搜索页面筛选+展示已经点击的筛选项">
+      <created>1555587180671</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555587180671</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -645,7 +648,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148476000" />
+    <option name="totallyTimeSpent" value="148739000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,7 +660,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -757,7 +761,8 @@
     <MESSAGE value="搜索功能和分页功能" />
     <MESSAGE value="搜索页面分类和品牌渲染" />
     <MESSAGE value="搜索页面筛选" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索页面筛选" />
+    <MESSAGE value="搜索页面筛选+展示已经点击的筛选项" />
+    <option name="LAST_COMMIT_MESSAGE" value="搜索页面筛选+展示已经点击的筛选项" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.4/mapper-core-1.0.4-sources.jar!/tk/mybatis/mapper/annotation/RegisterMapper.java">
@@ -1221,8 +1226,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="122" column="36" selection-start-line="122" selection-start-column="36" selection-end-line="122" selection-end-column="36" />
+        <state relative-caret-position="843">
+          <caret line="120" column="30" lean-forward="true" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
