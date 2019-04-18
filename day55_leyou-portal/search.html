@@ -118,12 +118,12 @@
         </div>
         <!--selector-->
         <div class="clearfix selector">
-            <div class="type-wrap" v-for="f in filters" :key="f.k" v-if="f.k !== 'brandId'">
+            <div class="type-wrap" v-for="(f,i) in filters" v-show="i <= 4 || showMore" :key="f.k" v-if="f.k !== 'brandId'">
                 <div class="fl key" v-text="f.k === 'cid3' ? '分类' : f.k"></div>
                 <div class="fl value">
                     <ul class="type-list">
-                        <li v-for="(o,i) in f.options" :key="i">
-                            <a v-text="o.name"></a>
+                        <li v-for="(o,j) in f.options" :key="j" v-if="o">
+                            <a v-text="o.name || o"></a>
                         </li>
                     </ul>
                 </div>
@@ -132,7 +132,7 @@
             <div class="type-wrap logo" v-else>
                 <div class="fl key brand">品牌</div>
                 <div class="value logos">
-                    <ul class="logo-list" v-for="(o,i) in f.options" :key="i">
+                    <ul class="logo-list" v-for="(o,j) in f.options" :key="j">
                         <li v-if="o.image"><img :src="o.image" /></li>
                         <li v-else><a href="#" v-text="o.name"></a></li>
                     </ul>
@@ -244,10 +244,10 @@
                 </div>
             </div>-->
             <div class="type-wrap" style="text-align: center">
-                <v-btn small flat>
+                <v-btn small flat v-show="!showMore" @click="showMore=true">
                     更多<v-icon>arrow_drop_down</v-icon>
                 </v-btn>
-                <v-btn small="" flat>
+                <v-btn small="" flat v-show="showMore" @click="showMore=false">
                     收起<v-icon>arrow_drop_up</v-icon>
                 </v-btn>
             </div>
@@ -442,7 +442,7 @@
             totalPage:0,
             selectedSku:{},
             filters:[],//过滤项
-
+            showMore: false,//是否显示更多
         },
         created(){
             //获取请求参数
@@ -492,6 +492,8 @@
                         k:"brandId",
                         options:resp.data.brands
                     });
+                    //2.3 其他规格展示
+                    resp.data.specs.forEach(spec => this.filters.push(spec));
                 }).catch(error => {
 
                 })

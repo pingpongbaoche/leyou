@@ -2,399 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3220a63a-50f6-4f88-9959-2c583774591c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/.idea/day55_leyou-portal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/copyright.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-JD-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-addressList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-cooperation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-getOrderInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-login-manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-myOrder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-pay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-payfail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-paysuccess.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-sampling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-seckill-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-seckill-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-seckillOrder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-shoplogin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-success-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-weixinpay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/pages-zoom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/vuetify.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/webbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/widget-cartPanelView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/css/widget-jquery.autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-moon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-moon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-moon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-pc.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-pc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-pc.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-pc.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-tb.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-tb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-tb.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-tb.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-touch.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-touch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-touch.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/fonts/icon-touch.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/getOrderInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-order-evaluate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-order-pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-order-receive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-order-send.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-orderDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-person-collect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-person-footmark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-setting-address-complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-setting-address-phone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-setting-address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-setting-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home-setting-safe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/57b51ea9Nb862ca5e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/buy001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/buy002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/buy01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/cooperation_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/down-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/dp01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/dp02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/dp03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/dp04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/empty_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/erweima.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/gocart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/gocart01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/gotop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/icon-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/intro01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/intro02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/intro03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/itemlike01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/itemlike02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/itemlike03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/itemlike04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/itemlike05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/itemlike06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/l-m01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/list.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/login-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/manage-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/mobile01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/mobile02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/mobile03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/mobile04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/mobile05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/mobile06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/part01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/part02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/part03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/pay5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/phone14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/photo_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/sampling_head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/seckillbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/shi_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/shop-intro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/shop-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/shop-part.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/title_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/_/y24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/ad1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/ali.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/itemlike/itemlike01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/itemlike/itemlike02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/itemlike/itemlike03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/itemlike/itemlike04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/itemlike/itemlike05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/itemlike/itemlike06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/pay5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/pay/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/dp01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/dp02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/dp03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/dp04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/intro01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/intro02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/intro03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/l-m01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/mobile01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/mobile02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/mobile03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/mobile04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/mobile05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/mobile06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/part01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/part02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/part03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/phone/phone14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/success-cart/buy001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/success-cart/buy002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/success-cart/buy01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/success-cart/gocart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/success-cart/gocart01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/zoom/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/zoom/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/zoom/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/zoom/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/zoom/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/assets/img/zoom/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/banner3x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/banner4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/barrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/brand_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/cartPanelViewIcons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/choosed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/duihuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/erweima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-b01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-b02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/floor-1-b03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/icon-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/interest01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/interest02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/interest03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/interest04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/interest05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/interest06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/like_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/linker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/loginbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/mod-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/phone-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/quan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/today01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/today02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/today03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/today04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/wx_cz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/img/zoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/czFunction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/model/cartModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/addressList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/getOrderInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/jquery.slideunlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/login-manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/person-collect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/person-footmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/seckill-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/shoplogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/shortcut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/sm-city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/pages/top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/birthday/birthday.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/citypicker/distpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/jquery/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/qs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/sui/sui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/plugins/upload/uploadPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/vue/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/vue/vuetify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/widget/cartPanelView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/widget/jquery.autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/widget/nav-portal-top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/js/widget/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/payfail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/paysuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/normalize/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/sui/sui-append.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/sui/sui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/plugins/sui/sui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/seckill-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/seckill-item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/shortcut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/side.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/success-cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day55_leyou-portal/top.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/BrandApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/BrandApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day55_leyou-portal/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day55_leyou-portal/search.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -415,47 +26,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-712">
+              <caret line="228" column="37" lean-forward="true" selection-start-line="228" selection-start-column="37" selection-end-line="228" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/web/SearchController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/function/Function.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="234" column="33" selection-start-line="234" selection-start-column="33" selection-end-line="234" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/BrandApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/BrandController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+            <state relative-caret-position="552">
+              <caret line="24" selection-start-line="24" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -476,6 +84,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -524,13 +137,13 @@
         <option value="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" />
         <option value="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/web/SearchController.java" />
         <option value="$PROJECT_DIR$/ly-gateway/src/main/java/com/leyou/gateway/config/GlobalCorsConfig.java" />
-        <option value="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchResult.java" />
         <option value="$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/vo/PageResult.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-service/src/main/java/com/leyou/item/web/BrandController.java" />
         <option value="$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/BrandApi.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchResult.java" />
+        <option value="$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java" />
       </list>
     </option>
   </component>
@@ -559,10 +172,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="327" />
-    <option name="y" value="144" />
+    <option name="x" value="207" />
+    <option name="y" value="300" />
     <option name="width" value="1376" />
-    <option name="height" value="744" />
+    <option name="height" value="753" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -585,354 +198,6 @@
             <path>
               <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
               <item name="ly-search" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -985,18 +250,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
@@ -1020,18 +273,6 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1048,164 +289,42 @@
             </path>
             <path>
               <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day50_leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="ly-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.elasticsearch:elasticsearch:5.6.8" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.elasticsearch:elasticsearch:5.6.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="elasticsearch-5.6.8.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.elasticsearch:elasticsearch:5.6.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="elasticsearch-5.6.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.elasticsearch:elasticsearch:5.6.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="elasticsearch-5.6.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.elasticsearch:elasticsearch:5.6.8" type="70bed36:NamedLibraryElementNode" />
-              <item name="elasticsearch-5.6.8.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="elasticsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="day50_leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.data:spring-data-commons:2.0.6.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-data-commons-2.0.6.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1221,7 +340,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555489270182" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555557807993" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="extract.method.default.visibility" value="private" />
@@ -1413,7 +532,7 @@
       <workItem from="1555033511179" duration="16111000" />
       <workItem from="1555154873661" duration="3350000" />
       <workItem from="1555311481278" duration="17852000" />
-      <workItem from="1555383286121" duration="27058000" />
+      <workItem from="1555383286121" duration="36738000" />
     </task>
     <task id="LOCAL-00001" summary="添加商品分类查询之前">
       <created>1554196716840</created>
@@ -1471,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555471716130</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="搜索页面分类和品牌渲染">
+      <created>1555489317263</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555489317263</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1495,7 +621,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130673000" />
+    <option name="totallyTimeSpent" value="140353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1606,7 +732,8 @@
     <MESSAGE value="实现商品查询" />
     <MESSAGE value="修改商品-回显" />
     <MESSAGE value="搜索功能和分页功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="搜索功能和分页功能" />
+    <MESSAGE value="搜索页面分类和品牌渲染" />
+    <option name="LAST_COMMIT_MESSAGE" value="搜索页面分类和品牌渲染" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.4/mapper-core-1.0.4-sources.jar!/tk/mybatis/mapper/annotation/RegisterMapper.java">
@@ -1623,13 +750,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1863,16 +983,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/Goods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-search/src/test/java/com/leyou/search/repository/GoodsRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
@@ -1918,23 +1028,6 @@
             <element signature="e#7966#7967#0" expanded="true" />
             <element signature="e#8010#8011#0" expanded="true" />
             <element signature="e#8065#8066#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2025,40 +1118,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/web/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ly-common/src/main/java/com/leyou/common/vo/PageResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="234" column="33" selection-start-line="234" selection-start-column="33" selection-end-line="234" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2074,8 +1137,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/BrandApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="161">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_191/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/pojo/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" selection-start-line="24" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/web/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ly-search/src/main/java/com/leyou/search/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-712">
+          <caret line="228" column="37" lean-forward="true" selection-start-line="228" selection-start-column="37" selection-end-line="228" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
