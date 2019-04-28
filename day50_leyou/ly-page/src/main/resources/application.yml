@@ -5,6 +5,11 @@ spring:
     name: page-service
   thymeleaf:
     cache: false #关闭缓存，可以热部署html，但是在IDEA中需要重新build一下html
+  rabbitmq:
+    host: 192.168.56.129
+    username: leyou
+    password: leyou
+    virtual-host: /leyou
 eureka:
   client:
     service-url:

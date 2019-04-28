@@ -11,12 +11,12 @@ import com.leyou.item.mapper.SpuMapper;
 import com.leyou.item.mapper.StockMapper;
 import com.leyou.item.pojo.*;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
 import tk.mybatis.mapper.entity.Example;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -35,6 +35,8 @@ public class GoodsService {
     private SkuMapper skuMapper;
     @Autowired
     private StockMapper stockMapper;
+    @Autowired
+    private AmqpTemplate amqpTemplate;
 
     public PageResult<Spu> querySpuByPage(Integer page, Integer rows, Boolean saleable, String key) {
         // 1、查询SPU
@@ -131,7 +133,8 @@ public class GoodsService {
         detailMapper.insert(detail);
         // 新增sku和库存
         saveSkuAndStock(spu);
-
+        //完成后发送rabbitMq消息
+        amqpTemplate.convertAndSend("item.insert",spu.getId());
     }
 
     private void saveSkuAndStock(Spu spu) {
@@ -241,6 +244,8 @@ public class GoodsService {
         //新增sku和stock
         saveSkuAndStock(spu);
 
+        //修改完成后发送rabbitMq消息
+        amqpTemplate.convertAndSend("item.update",spu.getId());
     }
 
     /**

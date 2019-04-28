@@ -57,17 +57,35 @@ public class PageService {
         return model;
     }
 
+    /**
+     * 创建静态页
+     * */
     public void createHtml(Long spuId) {
         //准备上下文
         Context context = new Context();
         context.setVariables(loadModel(spuId));
         //准备输出流 关联到目标文件
         File dest = new File("D:/upload", spuId + ".html");
+
+        if(dest.exists()){
+            dest.delete();
+        }
+
         try (PrintWriter writer = new PrintWriter(dest, "UTF-8")) {
             //生成HTML
             templateEngine.process("item", context, writer);
         } catch (Exception e) {
             log.error("[静态页服务] 生成静态页异常!", e);
+        }
+    }
+
+    /**
+     * 删除静态页
+     * */
+    public void deleteHtml(Long spuId) {
+        File dest = new File("D:/upload", spuId + ".html");
+        if(dest.exists()){
+            dest.delete();
         }
     }
 }
