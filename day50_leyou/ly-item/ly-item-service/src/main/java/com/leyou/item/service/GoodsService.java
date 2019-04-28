@@ -242,4 +242,22 @@ public class GoodsService {
         saveSkuAndStock(spu);
 
     }
+
+    /**
+     * 根据spu的id查询spu
+     * */
+    public Spu querySpuById(Long id) {
+        //查询spu
+        Spu spu = spuMapper.selectByPrimaryKey(id);
+        if(spu == null){
+            throw new LyException(ExceptionEnums.GOODS_NOT_FOUND);
+        }
+
+        //查询sku
+        spu.setSkus(querySkuBySpuId(id));
+
+        //查询detail
+        spu.setSpuDetail(queryDetailById(id));
+        return spu;
+    }
 }
