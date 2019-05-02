@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
- * 监听生产者方发送的消息
+ * 消息监听器。监听生产者方发送的消息
  * */
 @Component
 public class ItemListener {

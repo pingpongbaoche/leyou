@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a17217a-ea57-44e3-8773-420a6275ade8" name="Default Changelist" comment="分类和品牌渲染完成">
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-page/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-page/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-page/src/main/java/com/leyou/page/service/PageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-page/src/main/java/com/leyou/page/service/PageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-page/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-page/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-page/src/test/java/com/leyou/page/service/PageServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-page/src/test/java/com/leyou/page/service/PageServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-search/src/main/java/com/leyou/search/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-search/src/main/java/com/leyou/search/mq/ItemListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-search/src/main/java/com/leyou/search/mq/ItemListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +84,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,13 +107,14 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555894316889" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day50_leyou-manage-web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day50_leyou" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -153,7 +146,8 @@
       <workItem from="1556196619604" duration="405000" />
       <workItem from="1556261394512" duration="5000" />
       <workItem from="1556420802157" duration="38000" />
-      <workItem from="1556421275851" duration="1870000" />
+      <workItem from="1556421275851" duration="2548000" />
+      <workItem from="1556761946116" duration="2061000" />
     </task>
     <task id="LOCAL-00001" summary="分类和品牌渲染完成">
       <created>1555489140560</created>
@@ -166,13 +160,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48305000" />
+    <option name="totallyTimeSpent" value="51044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
