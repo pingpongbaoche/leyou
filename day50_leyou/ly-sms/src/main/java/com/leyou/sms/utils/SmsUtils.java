@@ -40,7 +40,7 @@ public class SmsUtils {
 
     public SendSmsResponse sendSms(String phoneNumber, String signName, String templateCode, String templateParam) {
         String key = KEY_PREFIX + phoneNumber;
-        //TODO 短信限流计时 按照手机号码限流
+        // 短信限流计时 按照手机号码限流
         //读取时间
         String lastTime = redisTemplate.opsForValue().get(key);
         if(StringUtils.isNotBlank(lastTime)){
