@@ -12,7 +12,6 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 
 @Data
-//@Component//TODO 自己加的
 @ConfigurationProperties(prefix = "ly.jwt")
 public class JwtProperties {
 
