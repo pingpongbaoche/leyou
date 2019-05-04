@@ -6,13 +6,11 @@ import com.leyou.common.utils.NumberUtils;
 import com.leyou.user.mapper.UserMapper;
 import com.leyou.user.pojo.User;
 import com.leyou.user.utils.CodecUtils;
-import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
-
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -90,5 +88,28 @@ public class UserService {
         //写入数据库
         user.setCreated(new Date());
         userMapper.insert(user);
+    }
+
+    /**
+     * 根据用户名和密码查询用户
+     * */
+    public User queryUserByUsernameAndPassword(String username, String password) {
+        //查询用户 为了提高查询效率，根据数据库的索引，即用户名来查 数据库的索引用于提高查询效率
+        User record = new User();
+        record.setUsername(username);
+        User user = userMapper.selectOne(record);
+
+        //校验是否存在
+        if(user == null){
+            throw new LyException(ExceptionEnums.INVALD_USERNAME_PASSWORD);
+        }
+
+        //校验密码
+        if (!StringUtils.equals(user.getPassword(), CodecUtils.md5Hex(password, user.getSalt()))) {
+            throw new LyException(ExceptionEnums.INVALD_USERNAME_PASSWORD);
+        }
+
+        //用户名和密码正确
+        return user;
     }
 }

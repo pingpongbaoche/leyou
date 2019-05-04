@@ -30,6 +30,7 @@ public enum  ExceptionEnums {
     GOODS_ID_CANNOT_BE_NULL(400,"商品id不能为空"),
     INVALID_USER_DATA_TYPE(400,"用户数据类型无效"),
     INVALD_VERIFY_CODE(400,"无效的验证码"),
+    INVALD_USERNAME_PASSWORD(400,"用户名或密码错误"),
     ;
     private int code;//异常状态码
     private String msg;//异常提示
