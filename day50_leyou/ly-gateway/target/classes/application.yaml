@@ -18,10 +18,13 @@ zuul:
     item-service: /item/**
     search-service: /search/**
     user-service: /user/**
+    auth-service: /auth/**
     upload-service:
       path: /upload/**
       serviceId: upload-service
       strip-prefix: false
+  add-host-header: true #网关转发时添加域名信息
+  sensitive-headers:  #覆盖默认敏感头信息
 #  retryable: true
 ribbon:
   ConnectTimeout: 1000 # 连接超时时间(ms)

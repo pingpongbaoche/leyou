@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a17217a-ea57-44e3-8773-420a6275ade8" name="Default Changelist" comment="分类和品牌渲染完成">
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnums.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-common/src/main/java/com/leyou/common/enums/ExceptionEnums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-common/target/classes/com/leyou/common/enums/ExceptionEnums.class" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-common/target/classes/com/leyou/common/enums/ExceptionEnums.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-gateway/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-gateway/target/classes/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-user/ly-user-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-user/ly-user-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-user/ly-user-interface/src/main/java/com/leyou/user/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-user/ly-user-interface/src/main/java/com/leyou/user/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-user/ly-user-service/src/main/java/com/leyou/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-user/ly-user-service/src/main/java/com/leyou/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-user/ly-user-service/src/main/java/com/leyou/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-user/ly-user-service/src/main/java/com/leyou/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="283">
               <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -80,6 +89,7 @@
         <option value="$PROJECT_DIR$/js/common.js" />
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/register.html" />
+        <option value="$PROJECT_DIR$/login.html" />
       </list>
     </option>
   </component>
@@ -162,7 +172,7 @@
       <workItem from="1556420802157" duration="38000" />
       <workItem from="1556421275851" duration="2548000" />
       <workItem from="1556761946116" duration="7353000" />
-      <workItem from="1556937151050" duration="1320000" />
+      <workItem from="1556937151050" duration="2557000" />
     </task>
     <task id="LOCAL-00001" summary="分类和品牌渲染完成">
       <created>1555489140560</created>
@@ -175,13 +185,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57656000" />
+    <option name="totallyTimeSpent" value="58893000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -198,7 +208,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22125813" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22125813" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -326,6 +336,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
           <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
         </state>
       </provider>
     </entry>
