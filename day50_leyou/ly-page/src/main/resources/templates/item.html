@@ -664,8 +664,8 @@
                 this.num++;
             },
             addCart() {
-                // 判断是否登录
-                ly.http.get("/auth/verify").then(() => {
+                // 判断是否登录 http.get("/auth/verify")
+                ly.verify().then(() => {
                     // 已登录
                     ly.http.post("/cart", {
                         skuId: this.sku.id,
@@ -681,8 +681,9 @@
                         alert("添加购物车失败，请重试！");
                     })
                 }).catch(() => {
+                    //未登录，保存到localstorage
                     // 获取以前的购物车
-                    const carts = ly.store.get("carts") || [];
+                    const carts = ly.store.get("carts") || [];//TODO LY_CART
                     // 获取与当前商品id一致的购物车数据
                     const cart = carts.find(c => c.skuId === this.sku.id);
                     if (cart) {
