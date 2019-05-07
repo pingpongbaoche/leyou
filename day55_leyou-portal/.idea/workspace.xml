@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a17217a-ea57-44e3-8773-420a6275ade8" name="Default Changelist" comment="分类和品牌渲染完成">
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-cart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-cart/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-cart/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-gateway/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-gateway/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-page/src/main/resources/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-page/src/main/resources/templates/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="4347">
               <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
             </state>
           </provider>
@@ -50,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="2553">
               <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
             </state>
           </provider>
@@ -59,12 +60,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="542" column="13" lean-forward="true" selection-start-line="542" selection-start-column="13" selection-end-line="542" selection-end-column="13" />
+            <state relative-caret-position="12305">
+              <caret line="542" column="13" selection-start-line="542" selection-start-column="13" selection-end-line="542" selection-end-column="13" />
               <folding>
                 <element signature="e#16374#16601#0" />
-                <element signature="e#17042#18521#0" />
-                <element signature="e#18650#18836#0" />
               </folding>
             </state>
           </provider>
@@ -74,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/item.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -82,11 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="319" column="39" lean-forward="true" selection-start-line="319" selection-start-column="39" selection-end-line="319" selection-end-column="39" />
-              <folding>
-                <element signature="e#2134#2140#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="282">
+              <caret line="328" column="42" selection-start-line="328" selection-start-column="42" selection-end-line="328" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -104,10 +100,11 @@
       <find>已选择的过滤项</find>
       <find>已选择过滤项</find>
       <find>获取</find>
-      <find>cart.html</find>
       <find>cartVm</find>
       <find>购物车</find>
       <find>总价</find>
+      <find>cart.html</find>
+      <find>deleteCart</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,8 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,13 +160,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556896960069" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day50_leyou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -205,7 +202,8 @@
       <workItem from="1556420802157" duration="38000" />
       <workItem from="1556421275851" duration="2548000" />
       <workItem from="1556761946116" duration="7353000" />
-      <workItem from="1556937151050" duration="10629000" />
+      <workItem from="1556937151050" duration="11491000" />
+      <workItem from="1557194421513" duration="5405000" />
     </task>
     <task id="LOCAL-00001" summary="分类和品牌渲染完成">
       <created>1555489140560</created>
@@ -218,13 +216,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66965000" />
+    <option name="totallyTimeSpent" value="73232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1945629" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -241,7 +239,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22125813" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22125813" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -353,44 +351,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="4347">
           <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="2553">
           <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12305">
+          <caret line="542" column="13" selection-start-line="542" selection-start-column="13" selection-end-line="542" selection-end-column="13" />
+          <folding>
+            <element signature="e#16374#16601#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="542" column="13" lean-forward="true" selection-start-line="542" selection-start-column="13" selection-end-line="542" selection-end-column="13" />
-          <folding>
-            <element signature="e#16374#16601#0" />
-            <element signature="e#17042#18521#0" />
-            <element signature="e#18650#18836#0" />
-          </folding>
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="319" column="39" lean-forward="true" selection-start-line="319" selection-start-column="39" selection-end-line="319" selection-end-column="39" />
-          <folding>
-            <element signature="e#2134#2140#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="282">
+          <caret line="328" column="42" selection-start-line="328" selection-start-column="42" selection-end-line="328" selection-end-column="42" />
         </state>
       </provider>
     </entry>

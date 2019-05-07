@@ -27,6 +27,7 @@ zuul:
   add-host-header: true #网关转发时添加域名信息
   sensitive-headers:  #覆盖默认敏感头信息
 #  retryable: true
+
 ribbon:
   ConnectTimeout: 1000 # 连接超时时间(ms)
   ReadTimeout: 3500 # 通信超时时间(ms)

@@ -265,4 +265,8 @@ public class GoodsService {
         spu.setSpuDetail(queryDetailById(id));
         return spu;
     }
+
+    public Sku queryASkuBySpuId(Long skuId) {
+        return this.skuMapper.selectByPrimaryKey(skuId);
+    }
 }

@@ -75,5 +75,16 @@ public class GoodsController {
         return ResponseEntity.ok(goodsService.querySpuById(id));
     }
 
+    /***/
+    @GetMapping("sku/{skuId}")
+    public ResponseEntity<Sku> queryaSkuBySkuId(@PathVariable("skuId") Long skuId){
+        Sku sku = this.goodsService.queryASkuBySpuId(skuId);
+        if(sku == null){
+            return ResponseEntity.notFound().build();
+        }
+
+        return ResponseEntity.ok(sku);
+    }
+
 
 }
