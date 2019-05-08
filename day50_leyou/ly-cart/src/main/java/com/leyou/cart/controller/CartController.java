@@ -24,6 +24,8 @@ public class CartController {
 
     }
 
+    //TODO 合并购物车
+
     @GetMapping
     public ResponseEntity<List<Cart>> queryCarts(){
         List<Cart> carts = this.cartService.queryCarts();

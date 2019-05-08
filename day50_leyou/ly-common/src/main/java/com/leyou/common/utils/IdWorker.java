@@ -8,7 +8,7 @@ import java.net.NetworkInterface;
  * <p>名称：IdWorker.java</p>
  * <p>描述：分布式自增长ID</p>
  * <pre>
- *     Twitter的 Snowflake　JAVA实现方案
+ *     Twitter的 Snowflake 雪花算法　JAVA实现方案
  * </pre>
  * 核心代码为其IdWorker这个类实现，其原理结构如下，我分别用一个0表示一位，用—分割开部分的作用：
  * 1||0---0000000000 0000000000 0000000000 0000000000 0 --- 00000 ---00000 ---000000000000

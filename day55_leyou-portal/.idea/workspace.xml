@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a17217a-ea57-44e3-8773-420a6275ade8" name="Default Changelist" comment="分类和品牌渲染完成">
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-cart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-cart/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-cart/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-cart/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-cart/src/main/java/com/leyou/cart/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-cart/src/main/java/com/leyou/cart/controller/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-common/src/main/java/com/leyou/common/utils/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-common/src/main/java/com/leyou/common/utils/IdWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-gateway/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-gateway/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-gateway/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/service/GoodsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-item/ly-item-service/src/main/java/com/leyou/item/web/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day50_leyou/ly-page/src/main/resources/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/ly-page/src/main/resources/templates/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day50_leyou/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day50_leyou/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getOrderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/getOrderInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/shortcut.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/shortcut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/pages/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paysuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/paysuccess.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,66 +29,117 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/search.html">
+        <entry file="file://$PROJECT_DIR$/cart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6693">
-              <caret line="291" column="34" selection-start-line="291" selection-start-column="34" selection-end-line="291" selection-end-column="34" />
+            <state relative-caret-position="374">
+              <caret line="310" column="43" selection-start-line="310" selection-start-column="43" selection-end-line="310" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getOrderInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="297" column="63" selection-start-line="297" selection-start-column="63" selection-end-line="297" selection-end-column="63" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#li#0;n#ul#1;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#span#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#1307#1313#1" expanded="true" />
+                <element signature="e#1589#1595#0" expanded="true" />
+                <element signature="e#1595#1601#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4347">
-              <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2553">
-              <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/common.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12305">
-              <caret line="542" column="13" selection-start-line="542" selection-start-column="13" selection-end-line="542" selection-end-column="13" />
-              <folding>
-                <element signature="e#16374#16601#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/item.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cart.html">
+        <entry file="file://$PROJECT_DIR$/paysuccess.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="328" column="42" selection-start-line="328" selection-start-column="42" selection-end-line="328" selection-end-column="42" />
+            <state relative-caret-position="309">
+              <caret line="34" column="65" lean-forward="true" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pay.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="36" column="126" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/qrcode.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getOrderInfo22.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="239" column="35" selection-start-line="239" selection-start-column="35" selection-end-line="239" selection-end-column="35" />
+              <folding>
+                <element signature="e#1415#1421#1" expanded="true" />
+                <element signature="e#1866#1872#0" expanded="true" />
+                <element signature="e#1872#1878#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#8;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/pages/shortcut.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="139">
+              <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/pages/top.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getOrderInfo1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450">
+              <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/getOrderInfo3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="274" column="14" selection-start-line="274" selection-start-column="14" selection-end-line="274" selection-end-column="14" />
+              <folding>
+                <element signature="e#1415#1421#1" expanded="true" />
+                <element signature="e#1866#1872#0" expanded="true" />
+                <element signature="e#1872#1878#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#8;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +148,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>goods-list</find>
-      <find>分页条</find>
       <find>goodslist</find>
       <find>o.name</find>
       <find>更多</find>
@@ -104,8 +159,29 @@
       <find>购物车</find>
       <find>总价</find>
       <find>cart.html</find>
+      <find>退出登录</find>
       <find>deleteCart</find>
+      <find>送货清单</find>
+      <find>total</find>
+      <find>verifyUser</find>
+      <find>机身</find>
+      <find>提交订单</find>
+      <find>结算</find>
+      <find>订单号</find>
+      <find>总商品金额</find>
+      <find>应付金额</find>
+      <find>ly</find>
+      <find>orderId</find>
+      <find>actualPrice</find>
+      <find>应付</find>
+      <find>微信扫一扫</find>
+      <find>actualPay</find>
+      <find>LY_SELECTED</find>
+      <find>payApp</find>
     </findStrings>
+    <replaceStrings>
+      <replace>verify</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -113,21 +189,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/pages/top.js" />
         <option value="$PROJECT_DIR$/search.html" />
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/item.html" />
         <option value="$PROJECT_DIR$/js/common.js" />
+        <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/getOrderInfo3.html" />
+        <option value="$PROJECT_DIR$/js/pages/top.js" />
+        <option value="$PROJECT_DIR$/js/pages/shortcut.js" />
         <option value="$PROJECT_DIR$/cart.html" />
+        <option value="$PROJECT_DIR$/getOrderInfo.html" />
+        <option value="$PROJECT_DIR$/pay.html" />
+        <option value="$PROJECT_DIR$/paysuccess.html" />
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="315" />
-    <option name="y" value="178" />
-    <option name="width" value="1376" />
-    <option name="height" value="753" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -150,27 +238,26 @@
               <item name="day55_leyou-portal" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="day55_leyou-portal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="day55_leyou-portal" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556896960069" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557320789344" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day50_leyou" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_projects\JAVAEE 57\day55_leyou-portal\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,7 +290,8 @@
       <workItem from="1556421275851" duration="2548000" />
       <workItem from="1556761946116" duration="7353000" />
       <workItem from="1556937151050" duration="11491000" />
-      <workItem from="1557194421513" duration="5405000" />
+      <workItem from="1557194421513" duration="10415000" />
+      <workItem from="1557226474213" duration="20350000" />
     </task>
     <task id="LOCAL-00001" summary="分类和品牌渲染完成">
       <created>1555489140560</created>
@@ -216,13 +304,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73232000" />
+    <option name="totallyTimeSpent" value="98592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19669509" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -239,14 +327,14 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22125813" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22125813" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -309,13 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/pages/top.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="87" selection-start-line="16" selection-start-column="87" selection-end-line="16" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -323,13 +404,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/pages/shortcut.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -363,16 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12305">
-          <caret line="542" column="13" selection-start-line="542" selection-start-column="13" selection-end-line="542" selection-end-column="13" />
-          <folding>
-            <element signature="e#16374#16601#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -380,10 +444,123 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7659">
+          <caret line="333" column="14" selection-start-line="333" selection-start-column="14" selection-end-line="333" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="542" column="4" selection-start-line="542" selection-start-column="4" selection-end-line="542" selection-end-column="4" />
+          <folding>
+            <element signature="e#16374#16601#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getOrderInfo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="351" column="25" lean-forward="true" selection-start-line="351" selection-start-column="25" selection-end-line="351" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getOrderInfo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="274" column="14" selection-start-line="274" selection-start-column="14" selection-end-line="274" selection-end-column="14" />
+          <folding>
+            <element signature="e#1415#1421#1" expanded="true" />
+            <element signature="e#1866#1872#0" expanded="true" />
+            <element signature="e#1872#1878#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#8;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getOrderInfo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pages/top.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="40" column="62" selection-start-line="40" selection-start-column="62" selection-end-line="40" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pages/shortcut.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="47" column="31" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getOrderInfo22.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="239" column="35" selection-start-line="239" selection-start-column="35" selection-end-line="239" selection-end-column="35" />
+          <folding>
+            <element signature="e#1415#1421#1" expanded="true" />
+            <element signature="e#1866#1872#0" expanded="true" />
+            <element signature="e#1872#1878#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#8;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="328" column="42" selection-start-line="328" selection-start-column="42" selection-end-line="328" selection-end-column="42" />
+        <state relative-caret-position="374">
+          <caret line="310" column="43" selection-start-line="310" selection-start-column="43" selection-end-line="310" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/qrcode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getOrderInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="297" column="63" selection-start-line="297" selection-start-column="63" selection-end-line="297" selection-end-column="63" />
+          <folding>
+            <element signature="e#1307#1313#1" expanded="true" />
+            <element signature="e#1589#1595#0" expanded="true" />
+            <element signature="e#1595#1601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pay.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" column="126" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/paysuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="34" column="65" lean-forward="true" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
         </state>
       </provider>
     </entry>
