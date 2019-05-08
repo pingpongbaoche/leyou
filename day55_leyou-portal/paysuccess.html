@@ -7,19 +7,20 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
 		<title>乐优商城--支付页-成功</title>
 		<link rel="icon" href="/assets/img/favicon.ico">
-		
-	
-    <link rel="stylesheet" type="text/css" href="css/webbase.css" />
-    <link rel="stylesheet" type="text/css" href="css/pages-paysuccess.css" />
-</head>
+		<link rel="stylesheet" type="text/css" href="css/webbase.css" />
+		<link rel="stylesheet" type="text/css" href="css/pages-paysuccess.css" />
+	</head>
 
 	<body>
 		<!--head-->
 		
 		<!--页面顶部白条条，由js动态加载-->
-		<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
-		<div class="top"></div>
-    	<script type="text/javascript">$(".top").load("shortcut.html");</script>
+		<!--<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>-->
+	<div id="paySuccessApp">
+		<div class="top">
+			<shortcut />
+		</div>
+<!--    	<script type="text/javascript">$(".top").load("shortcut.html");</script>-->
 		
 		<div class="cart py-container" id="paySuccessApp">
 			<!--logoArea-->
@@ -39,6 +40,7 @@
 				
 			</div>
 		</div>
+	</div>
 
 
 	<!-- 底部栏位 -->
@@ -56,7 +58,7 @@
 		<script src="./js/axios.min.js"></script>
 		<script src="./js/common.js"></script>
 		<script type="text/javascript">
-			var paySuccessVm = new Vue({
+			var paySuccessApp = new Vue({
 				el:"#paySuccessApp",
 				data:{
 					ly,
@@ -64,8 +66,29 @@
 					actualPrice: 0,
 				},
 				created() {
-					this.orderId = ly.getUrlParam("orderId"); //获取地址栏参数
-					this.actualPrice = ly.store.get("actualPrice"); //从localstorage获取应付金额
+					ly.verify().then(res => {
+						this.orderId = ly.getUrlParam("orderId"); //获取地址栏参数
+						this.actualPrice = ly.store.get("actualPrice"); //从localstorage获取应付金额
+						//删除本地数据
+						ly.store.del("actualPrice");
+						ly.store.del("LY_SELECTED");
+
+						//支付成功，更新购物车数据，去掉已经支付的
+						ly.http.get("/order/order/skuId/"+this.orderId).then(({data})=>{
+							data.forEach(id=>{
+								//删除
+								ly.http.delete("/cart/"+id).then(()=>{
+									console.log("更新成功");
+								});
+							})
+						})
+					}).catch(() => {
+						window.location = "http://www.leyou.com/payfail.html"
+					})
+
+				},
+				components:{
+					shortcut: () => import("/js/pages/shortcut.js")
 				}
 			});
 		</script>

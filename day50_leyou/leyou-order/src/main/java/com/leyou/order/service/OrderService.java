@@ -17,7 +17,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import tk.mybatis.mapper.entity.Example;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -39,6 +41,7 @@ public class OrderService {
 
     @Autowired
     private OrderStatusMapper statusMapper;
+
 
     private static final Logger logger = LoggerFactory.getLogger(OrderService.class);
 
@@ -136,4 +139,16 @@ public class OrderService {
         return count == 1;
     }
 
+    /**
+     * 根据订单号查询商品id
+     * */
+    public List<Long> querySkuIdByOrderId(Long id) {
+
+        Example example = new Example(OrderDetail.class);
+        example.createCriteria().andEqualTo("orderId",id);
+        List<OrderDetail> orderDetailList = this.detailMapper.selectByExample(example);
+        List<Long> ids = new ArrayList<>();
+        orderDetailList.forEach(orderDetail -> ids.add(orderDetail.getSkuId()));
+        return ids;
+    }
 }

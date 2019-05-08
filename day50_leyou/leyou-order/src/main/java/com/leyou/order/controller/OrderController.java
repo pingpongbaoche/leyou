@@ -12,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
+import java.util.List;
 
 /**
  * @author: HuYi.Zhang
@@ -156,5 +157,26 @@ public class OrderController {
     public ResponseEntity<Integer> queryPayState(@PathVariable("id") Long orderId) {
         PayState payState = this.payHelper.queryOrder(orderId);
         return ResponseEntity.ok(payState.getValue());
+    }
+
+    /**
+     * 根据订单id查询其包含的skuId
+     * @param id
+     * @return
+     */
+    @GetMapping("skuId/{id}")
+    @ApiOperation(value = "根据订单号查询其包含的所有商品ID",notes = "查询商品ID")
+    @ApiImplicitParam(name = "id",value = "订单编号",type = "Long")
+    @ApiResponses({
+            @ApiResponse(code = 200,message = "商品订单号集合"),
+            @ApiResponse(code = 404,message = "没有找到对应的订单号集合"),
+            @ApiResponse(code = 500,message = "服务器异常")
+    })
+    public ResponseEntity<List<Long>> querySkuIdByOrderId(@PathVariable("id") Long id){
+        List<Long> longList = this.orderService.querySkuIdByOrderId(id);
+        if (longList == null || longList.size() == 0){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        return ResponseEntity.ok(longList);
     }
 }
