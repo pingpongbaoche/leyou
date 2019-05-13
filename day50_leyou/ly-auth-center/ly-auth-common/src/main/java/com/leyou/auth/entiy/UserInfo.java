@@ -1,5 +1,7 @@
 package com.leyou.auth.entiy;
-
+/**
+ * 用户信息
+ * */
 public class UserInfo {
 
     private Long id;
