@@ -103,7 +103,17 @@ public class OrderService {
             // 创建查询条件
             Page<Order> pageInfo = (Page<Order>) this.orderMapper.queryOrderList(user.getId(), status);
 
-            return new PageResult<>(pageInfo.getTotal(), pageInfo);
+            //4.填充orderDetail
+            List<Order> orderList = pageInfo.getResult();
+            orderList.forEach(order -> {
+                Example example = new Example(OrderDetail.class);
+                example.createCriteria().andEqualTo("orderId",order.getOrderId());
+                List<OrderDetail> orderDetailList = this.detailMapper.selectByExample(example);
+                order.setOrderDetails(orderDetailList);
+            });
+            return new PageResult<>(pageInfo.getTotal(),(long)pageInfo.getPages(), orderList);
+
+//            return new PageResult<>(pageInfo.getTotal(), pageInfo);
         } catch (Exception e) {
             logger.error("查询订单出错", e);
             return null;

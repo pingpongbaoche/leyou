@@ -10,18 +10,36 @@
 
     <link rel="stylesheet" type="text/css" href="css/webbase.css"/>
     <link rel="stylesheet" type="text/css" href="css/pages-seckillOrder.css"/>
+    <link rel="stylesheet" type="text/css" href="css/webbase.css" />
+    <link rel="stylesheet" type="text/css" href="css/pages-JD-index.css" />
+    <link rel="stylesheet" type="text/css" href="css/widget-jquery.autocomplete.css" />
+    <link rel="stylesheet" type="text/css" href="css/widget-cartPanelView.css" />
 </head>
 
 <body>
 
 <!-- 头部栏位 -->
 <!--页面顶部，由js动态加载-->
-<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>
-<div id="nav-bottom"></div>
-<script type="text/javascript">$("#nav-bottom").load("top.html");</script>
-
-<script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
+<!--<script type="text/javascript" src="plugins/jquery/jquery.min.js"></script>-->
+<div id="nav-bottom">
+    <ly-top/>
+</div>
+<!--页面顶部，由js动态加载-->
+<script src="./js/vue/vue.js"></script>
+<script src="./js/axios.min.js"></script>
+<script src="./js/common.js"></script>
 <script type="text/javascript">
+    var indexVm = new Vue({
+        el:"#nav-bottom",
+        components:{
+            lyTop:() => import('./js/pages/top.js')
+        }
+    });
+</script>
+<!--<script type="text/javascript">$("#nav-bottom").load("top.html");</script>-->
+
+<!--<script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>-->
+<!--<script type="text/javascript">
     $(function () {
         $("#service").hover(function () {
             $(".service").show();
@@ -35,7 +53,7 @@
         });
 
     })
-</script>
+</script>-->
 <script type="text/javascript" src="js/plugins/jquery.easing/jquery.easing.min.js"></script>
 <script type="text/javascript" src="js/plugins/sui/sui.min.js"></script>
 <script type="text/javascript" src="js/plugins/jquery-placeholder/jquery.placeholder.min.js"></script>
@@ -84,6 +102,7 @@
             <!--右侧主内容-->
             <div class="yui3-u-5-6 order-pay">
                 <div class="body">
+                    <div id="orderList" :style="{display:orderList}">
                     <div class="table-title">
                         <table class="sui-table  order-table">
                             <tr>
@@ -101,15 +120,15 @@
                     </div>
                     <div class="order-detail">
                         <div class="orders">
-                            <div class="choose-order">
-                                <div class="sui-pagination pagination-large top-pages">
-                                    <ul>
-                                        <li class="prev disabled"><a href="#">上一页</a></li>
+                            <!--<div class="choose-order">-->
+                                <!--&lt;!&ndash;<div class="sui-pagination pagination-large top-pages">-->
+                                    <!--<ul>-->
+                                        <!--<li class="prev disabled"><a href="#">上一页</a></li>-->
 
-                                        <li class="next"><a href="#">下一页</a></li>
-                                    </ul>
-                                </div>
-                            </div>
+                                        <!--<li class="next"><a href="#">下一页</a></li>-->
+                                    <!--</ul>-->
+                                <!--</div>&ndash;&gt;-->
+                            <!--</div>-->
 
                             <!--order1-->
                             <div v-for="(o, i) in orders" :key="i">
@@ -118,7 +137,7 @@
                                     <input type="checkbox" checked="checked" />
                                     <span>{{formatDate(o.createTime)}}　订单编号：{{o.orderId}} <a>联系客服</a></span>
                                 </label>
-                                <a class="sui-btn btn-info share-btn">分享</a>
+                                <!--<a class="sui-btn btn-info share-btn">分享</a>-->
                             </div>
                             <table class="sui-table table-bordered order-datatable">
                                 <tbody>
@@ -148,7 +167,7 @@
                                             <li>（含运费：￥0.00）</li>
                                         </ul>
                                     </td>
-                                    <td width="10%" class="center" :rowspan="o.orderDetails.length" v-if="j === 0">
+                                    <!--<td width="10%" class="center" :rowspan="o.orderDetails.length" v-if="j === 0">
                                         <ul class="unstyled">
                                             <li v-if="o.status === 1">等待买家付款</li>
                                             <li v-if="o.status === 2">已付款</li>
@@ -164,6 +183,29 @@
                                             <li v-if="o.status === 3">4天23时后自动确认</li>
                                             <li><a href="javascript:void(0)">取消订单</a></li>
                                         </ul>
+                                    </td>-->
+
+                                    <td width="10%" class="center" :rowspan="o.orderDetails.length" v-if="j === 0">
+                                        <ul class="unstyled">
+                                            <li v-if="o.status === 1">等待买家付款</li>
+                                            <li v-if="o.status === 2">已付款</li>
+                                            <li v-if="o.status === 3">已发货</li>
+                                            <li v-if="o.status === 4">待评价</li>
+                                            <li v-if="o.status === 5">交易关闭</li>
+                                            <li v-if="o.status === 6">交易成功</li>
+                                            <li><a href="home-orderDetail.html" class="btn">订单详情 </a></li>
+                                        </ul>
+                                    </td>
+                                    <td width="10%" class="center" :rowspan="o.orderDetails.length" v-if="j === 0">
+                                        <ul class="unstyled">
+                                            <li v-if="o.status === 1"><a href="#" @click="payment(o.orderId,getTotalPrice(o))" class="sui-btn btn-info">立即付款</a></li>
+                                            <!--<li v-if="o.status === 1"><a href="#" @click="submit()" class="sui-btn btn-info">立即付款</a></li>-->
+                                            <li v-if="o.status === 2"><a href="#" @click="deliver(o.orderId)" class="sui-btn btn-info">提醒发货</a></li>
+                                            <li v-if="o.status === 3"><a href="#" @click="receiveGoods(o.orderId)" class="sui-btn btn-info">确认收货</a></li>
+                                            <li v-if="o.status === 4"><a href="#" @click="review(o.orderId)" class="sui-btn btn-info">评价</a></li>
+                                            <li v-if="o.status === 3">4天23时后自动确认</li>
+                                            <li><a v-if="o.status === 1" href="javascript:void(0)" @click="cancelOrder(o.orderId)">取消订单</a></li>
+                                        </ul>
                                     </td>
                                 </tr>
 
@@ -173,7 +215,7 @@
                             </div>
                         </div>
                         <div class="choose-order">
-                            <div class="sui-pagination pagination-large top-pages">
+                            <!--<div class="sui-pagination pagination-large top-pages">
                                 <ul>
                                     <li class="prev disabled"><a href="#">«上一页</a></li>
                                     <li class="active"><a href="#">1</a></li>
@@ -186,11 +228,36 @@
                                             到
                                             <input type="text" class="page-num"><button class="page-confirm"
                                                                                         onclick="alert(1)">确定</button>
-                                            页</span></div>
+                                            页</span>
+                                </div>
+                            </div>-->
+                            <div class="sui-pagination pagination-large top-pages">
+                                <ul>
+                                    <li class="prev disabled">
+                                        <a @click="prevPage">«上一页</a>
+                                    </li>
+                                    <li :class="{active:index(i) === query.page}" v-for="i in Math.min(5,totalPage)" :key="i">
+                                        <a @click="query.page=index(i)">{{index(i)}}</a>
+                                    </li>
+                                    <li class="dotted" v-show="totalPage>5"><span>...</span></li>
+                                    <li :class="{next:true,disabled:query.page === totalPage}">
+                                        <a @click="nextPage">下一页»</a>
+                                    </li>
+                                </ul>
+                                <div>
+                                    <span>共{{totalPage}}页&nbsp;</span>
+                                    <span>
+                                            到第
+                                            <input type="text" class="page-num" ref="page">
+                                            页 <button class="page-confirm" @click="navPage">确定</button>
+                                        </span>
+                                </div>
                             </div>
+
                         </div>
 
                         <div class="clearfix"></div>
+                    </div>
                     </div>
 
                     <div class="like-title">
@@ -299,26 +366,36 @@
     var vm = new Vue({
         el: "#account",
         data: {
+            ly,
             user: {},
             orders:[],
             query:{
                 status:0,
                 page:1,
                 rows:5
-            }
+            },
+            order: {
+                paymentType: 1,//货到付款还是微信付款
+                postFee: 600//运费
+            },
+            orderDetail:"none",
         },
         created() {
-            // 有token，曾经登录过，查询用户信息
-            leyou.http.get("/auth/verify" + token)
-                .then(resp => {
-                    this.user = resp.data;
-                    // 查询订单信息
-                    this.loadOrder();
-                })
-                .catch(() => {
-                    // 去登录
-                    this.gotoLogin();
-                });
+            //加载数据
+            this.orderDetail = "none";
+            this.loadOrder();
+
+            // // 有token，曾经登录过，查询用户信息
+            // leyou.http.get("/auth/verify")
+            //     .then(resp => {
+            //         this.user = resp.data;
+            //         // 查询订单信息
+            //         this.loadOrder();
+            //     })
+            //     .catch(() => {
+            //         // 去登录
+            //         this.gotoLogin();
+            //     });
         },
         methods: {
             logout() {
@@ -333,19 +410,97 @@
                 window.location = "login.html?returnUrl=" + window.location;
             },
             loadOrder(){
-                // 查询订单信息
-                ly.http.get("/order/list?"+ ly.stringify(this.query))
-                    .then(({data:{items,total}}) => {
+                // // 查询订单信息
+                // ly.http.get("/order/order/list?"+ ly.stringify(this.query))
+                //     .then(({data:{items,total}}) => {
+                //         this.orders = items;
+                //     }).catch(() => this.orders = [])
+
+                //分页查询订单信息
+                ly.verify().then(resp => {
+                    // 查询用户信息
+                    this.user = resp.data;
+                    // 查询订单信息
+                    ly.http.get("/order/order/list?"+ ly.stringify(this.query)).then(({data:{items,total,totalPage}}) => {
                         this.orders = items;
+                        this.total = total;
+                        this.totalPage = totalPage;
                     }).catch(() => this.orders = [])
+
+                }).catch(() => {
+                    // 去登录
+                    this.gotoLogin();
+                });
             },
             formatDate:ly.formatDate,
             formatPrice: ly.formatPrice,
             getTotalPrice(order){
                 return order.orderDetails.map(d => d.num * d.price).reduce((v1,v2) => v1 + v2, 0);
-            }
+            },
+            navPage(){
+                this.query.page = this.$refs.page.value ;
+            },
+            index(i){
+                if(this.query.page <= 3 || this.totalPage <= 5){
+                    // 如果当前页小于等于3或者总页数小于等于5
+                    return i;
+                }else if (this.query.page > this.totalPage - 3) {
+                    //当前页码大于totalPage-3，应该从totalPage-5开始
+                    return this.totalPage - 5 + i;
+                } else if(this.query.page > 3) {
+                    // 如果当前页大于3，应该从page-3开始
+                    return this.query.page - 3 + i;
+                }
+            },
+            prevPage(){
+                if(this.query.page > 1){
+                    this.query.page--
+                }
+            },
+            nextPage(){
+                if(this.query.page < this.totalPage){
+                    this.query.page++
+                }
+            },
+
+            //立即付款
+            payment(orderId,totalPay){
+                window.location = "http://www.leyou.com/pay.html?orderId=" + orderId;
+                //4.2 添加总金额和订单号到本地数据
+                ly.store.set("actualPrice",totalPay);
+                // ly.store.set("orderId",orderId);
+
+            },
+
+            deliver(orderId){
+                //提醒发货
+                this.updateOrderState(orderId,3);
+            },
+            receiveGoods(orderId){
+                //确认收货
+                this.updateOrderState(orderId,4);
+            },
+            cancelOrder(orderId){
+                //取消订单
+                this.updateOrderState(orderId,5);
+            },
+            review(orderId){
+                //评价
+                this.updateOrderState(orderId,6);
+            },
+
+            //修改订单状态
+            updateOrderState(orderId,status){
+                ly.verify().then(() => {
+                    ly.http.put("/order/order/"+orderId+"/"+status).then(() => {
+                        this.loadOrder();
+                    })
+                }).catch(() => {
+                    this.gotoLogin();
+                })
+            },
         },
-        watch:{
+        watch:{//当页数发生改变时，重新加载数据
             'query':{
                 deep:true,
                 handler(){

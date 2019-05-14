@@ -284,7 +284,7 @@
                     // address: "天堂路 3号楼",// 街道地址
                     // zipCode: "100000", // 邮编
                     // default: false
-                }
+                },{},{},{},{},{},{},{},
             ],
             selectedAddress: 0,
             order: {
@@ -392,16 +392,17 @@
 
                     //发送异步请求，创建订单
                     ly.http.post("/order/order", this.order, {
-                        transformResponse: [
-                            function (data) {
-                                return data;
-                            }
-                        ]
+                        // transformResponse: [ 改了后台的MvcConfig就不需要了
+                        //     function (data) {
+                        //         return data;
+                        //     }
+                        // ]
                     }).then(({data}) => {
                         console.log(data);
                         window.location = "http://www.leyou.com/pay.html?orderId=" + data;
                         //添加总金额和订单号到本地数据
                         ly.store.set("actualPrice", this.actualPrice);
+                        ly.store.set("orderId"+data.slice(0,16) , data);//用于在home.html获取订单编号的真实值，因为会损失精度 TODO 需要改进！
                     })
                 }).catch(() => {
                     window.location = "http://www.leyou.com/login.html?returnUrl=http://www.leyou.com/getOrderInfo.html"
